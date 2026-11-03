@@ -1,0 +1,23 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\JYX\.workbuddy\binaries\python\versions\3.13.12\python.exe
+cachedir: .pytest_cache
+rootdir: D:\ros2_kkyy\src\air\imu_allan_calibration
+collecting ... collected 15 items
+
+test/test_imu_core.py::test_simulator_deterministic_with_seed PASSED     [  6%]
+test/test_imu_core.py::test_simulator_rejects_bad_args PASSED            [ 13%]
+test/test_imu_core.py::test_simulator_bias_recovered_in_mean PASSED      [ 20%]
+test/test_imu_core.py::test_allan_needs_enough_samples PASSED            [ 26%]
+test/test_imu_core.py::test_allan_pure_white_noise_recovers_arw PASSED   [ 33%]
+test/test_imu_core.py::test_allan_pure_random_walk_recovers_rrw PASSED   [ 40%]
+test/test_imu_core.py::test_allan_curve_v_shape_for_combined_noise PASSED [ 46%]
+test/test_imu_core.py::test_allan_constant_signal_zero_deviation PASSED  [ 53%]
+test/test_imu_core.py::test_allan_constant_bias_does_not_inflate_adev PASSED [ 60%]
+test/test_imu_core.py::test_allan_taus_monotonic_grid PASSED             [ 66%]
+test/test_imu_core.py::test_fit_rejects_mismatched_lengths PASSED        [ 73%]
+test/test_imu_core.py::test_fit_bias_coefficient_definition PASSED       [ 80%]
+test/test_imu_core.py::test_calibrate_report_keys PASSED                 [ 86%]
+test/test_imu_core.py::test_bias_estimate_trims_convergence PASSED       [ 93%]
+test/test_imu_core.py::test_units_are_agostic PASSED                     [100%]
+
+============================= 15 passed in 2.64s ==============================
