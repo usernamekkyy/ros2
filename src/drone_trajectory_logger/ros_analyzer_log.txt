@@ -1,0 +1,26 @@
+[INFO] [1793680967.771836300] [trajectory_analyzer]: 轨迹识别节点已启动，等待 /drone/odom 或 /drone/cmd_vel ...
+[INFO] [1793680967.774015900] [trajectory_analyzer]: t= 0.06s 状态切换 -> hover（悬停）
+[INFO] [1793680969.710064300] [trajectory_analyzer]: t= 2.00s 状态切换 -> cruise（直线巡航）
+[INFO] [1793680975.721286200] [trajectory_analyzer]: t= 8.02s 状态切换 -> arc_left（左弧线飞行）
+[INFO] [1793680983.071189400] [trajectory_analyzer]: t=15.36s 状态切换 -> cruise（直线巡航）
+[INFO] [1793680985.710398700] [trajectory_analyzer]: t=18.00s 状态切换 -> arc_right（右弧线飞行）
+[INFO] [1793680987.323138900] [trajectory_analyzer]: t=19.62s 状态切换 -> turn_right（原地右转）
+[INFO] [1793680990.215779800] [trajectory_analyzer]: t=22.52s 状态切换 -> hover（悬停）
+[INFO] [1793680992.210529400] [trajectory_analyzer]: 到达预设运行时长，自动退出并输出统计。
+[INFO] [1793680992.212256000] [trajectory_analyzer]: ========================================================
+[INFO] [1793680992.213720600] [trajectory_analyzer]: 架次统计（数据来源：里程计）
+[INFO] [1793680992.215952600] [trajectory_analyzer]:   记录点数      : 460（里程计 460 帧 / 推算 0 帧）
+[INFO] [1793680992.217912600] [trajectory_analyzer]:   飞行时长      : 22.91 s
+[INFO] [1793680992.219661700] [trajectory_analyzer]:   航迹里程      : 24.49 m
+[INFO] [1793680992.221116500] [trajectory_analyzer]:   起点-终点位移 : 7.72 m
+[INFO] [1793680992.222626400] [trajectory_analyzer]:   直线度        : 0.315
+[INFO] [1793680992.224540600] [trajectory_analyzer]:   最大速度      : 1.50 m/s
+[INFO] [1793680992.227058100] [trajectory_analyzer]:   平均速度      : 1.07 m/s
+[INFO] [1793680992.228530300] [trajectory_analyzer]:   悬停占比      : 10.4%
+[INFO] [1793680992.229982600] [trajectory_analyzer]:     cruise          8.66 s
+[INFO] [1793680992.231530600] [trajectory_analyzer]:     arc_left        7.34 s
+[INFO] [1793680992.232958700] [trajectory_analyzer]:     turn_right      2.89 s
+[INFO] [1793680992.234790200] [trajectory_analyzer]:     hover           2.39 s
+[INFO] [1793680992.236216000] [trajectory_analyzer]:     arc_right       1.62 s
+[INFO] [1793680992.237856700] [trajectory_analyzer]: ========================================================
+[INFO] [1793680992.241181100] [trajectory_analyzer]: 航迹已写入 D:\ros2_kkyy\src\drone_trajectory_logger\ros_demo_trajectory.csv

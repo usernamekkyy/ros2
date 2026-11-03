@@ -1,0 +1,36 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\JYX\.workbuddy\binaries\python\versions\3.13.12\python.exe
+cachedir: .pytest_cache
+rootdir: D:\ros2_kkyy\src\drone_trajectory_logger
+collecting ... collected 28 items
+
+test/test_trajectory_core.py::test_hover_state PASSED                    [  3%]
+test/test_trajectory_core.py::test_cruise_state PASSED                   [  7%]
+test/test_trajectory_core.py::test_arc_left_regression PASSED            [ 10%]
+test/test_trajectory_core.py::test_arc_right_regression PASSED           [ 14%]
+test/test_trajectory_core.py::test_turn_right_negative_regression PASSED [ 17%]
+test/test_trajectory_core.py::test_reverse_states PASSED                 [ 21%]
+test/test_trajectory_core.py::test_all_states_have_labels PASSED         [ 25%]
+test/test_trajectory_core.py::test_straight_line_uses_speed_and_dt PASSED [ 28%]
+test/test_trajectory_core.py::test_step_length_independent_of_callback_rate PASSED [ 32%]
+test/test_trajectory_core.py::test_arc_radius_and_quarter_turn PASSED    [ 35%]
+test/test_trajectory_core.py::test_full_circle_returns_to_origin PASSED  [ 39%]
+test/test_trajectory_core.py::test_arc_right_symmetric PASSED            [ 42%]
+test/test_trajectory_core.py::test_dt_clamped_for_stalls PASSED          [ 46%]
+test/test_trajectory_core.py::test_invalid_dt_dropped PASSED             [ 50%]
+test/test_trajectory_core.py::test_dead_reckoner_reset PASSED            [ 53%]
+test/test_trajectory_core.py::test_wrap_to_pi PASSED                     [ 57%]
+test/test_trajectory_core.py::test_yaw_from_quaternion[0.0] PASSED       [ 60%]
+test/test_trajectory_core.py::test_yaw_from_quaternion[30.0] PASSED      [ 64%]
+test/test_trajectory_core.py::test_yaw_from_quaternion[90.0] PASSED      [ 67%]
+test/test_trajectory_core.py::test_yaw_from_quaternion[-90.0] PASSED     [ 71%]
+test/test_trajectory_core.py::test_yaw_from_quaternion[179.0] PASSED     [ 75%]
+test/test_trajectory_core.py::test_recorder_straight_line_metrics PASSED [ 78%]
+test/test_trajectory_core.py::test_recorder_circle_metrics PASSED        [ 82%]
+test/test_trajectory_core.py::test_recorder_hover_ratio PASSED           [ 85%]
+test/test_trajectory_core.py::test_recorder_csv_roundtrip PASSED         [ 89%]
+test/test_trajectory_core.py::test_recorder_rejects_bad_csv_header PASSED [ 92%]
+test/test_trajectory_core.py::test_recorder_decimation_keeps_endpoints PASSED [ 96%]
+test/test_trajectory_core.py::test_summary_keys PASSED                   [100%]
+
+============================= 28 passed in 0.16s ==============================

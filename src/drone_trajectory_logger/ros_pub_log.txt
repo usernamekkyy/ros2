@@ -1,0 +1,53 @@
+[INFO] [1793680967.727458300] [trajectory_publisher]: 仿真发布节点已启动：20 Hz，指令->运动滞后 tau=0.25s
+[INFO] [1793680968.214090000] [trajectory_publisher]: t=  0.5s 指令 v=0.0 w=0.0 | 实际 v=0.00 w=0.00 | hover
+[INFO] [1793680968.665034300] [trajectory_publisher]: t=  1.0s 指令 v=0.0 w=0.0 | 实际 v=0.00 w=0.00 | hover
+[INFO] [1793680969.161690800] [trajectory_publisher]: t=  1.5s 指令 v=0.0 w=0.0 | 实际 v=0.00 w=0.00 | hover
+[INFO] [1793680969.662734200] [trajectory_publisher]: 切换任务段 -> v=1.5 w=0.0
+[INFO] [1793680969.664229200] [trajectory_publisher]: t=  2.0s 指令 v=0.0 w=0.0 | 实际 v=0.00 w=0.00 | hover
+[INFO] [1793680970.224312700] [trajectory_publisher]: t=  2.5s 指令 v=1.5 w=0.0 | 实际 v=1.37 w=0.00 | cruise
+[INFO] [1793680970.723979000] [trajectory_publisher]: t=  3.0s 指令 v=1.5 w=0.0 | 实际 v=1.49 w=0.00 | cruise
+[INFO] [1793680971.224602700] [trajectory_publisher]: t=  3.5s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680971.711588000] [trajectory_publisher]: t=  4.0s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680972.211263900] [trajectory_publisher]: t=  4.5s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680972.712657400] [trajectory_publisher]: t=  5.0s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680973.211515000] [trajectory_publisher]: t=  5.5s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680973.709874500] [trajectory_publisher]: t=  6.0s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680974.221777500] [trajectory_publisher]: t=  6.5s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680974.719645600] [trajectory_publisher]: t=  7.0s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680975.221756500] [trajectory_publisher]: t=  7.5s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680975.674136000] [trajectory_publisher]: 切换任务段 -> v=1.5 w=0.5
+[INFO] [1793680975.721210800] [trajectory_publisher]: t=  8.0s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.10 | arc_left
+[INFO] [1793680976.219137400] [trajectory_publisher]: t=  8.5s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.46 | arc_left
+[INFO] [1793680976.718237100] [trajectory_publisher]: t=  9.0s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680977.170401000] [trajectory_publisher]: t=  9.5s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680977.671569400] [trajectory_publisher]: t= 10.0s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680978.169115500] [trajectory_publisher]: t= 10.5s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680978.668069600] [trajectory_publisher]: t= 11.0s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680979.167640500] [trajectory_publisher]: t= 11.5s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680979.664350200] [trajectory_publisher]: t= 12.0s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680980.164889000] [trajectory_publisher]: t= 12.5s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680980.670073400] [trajectory_publisher]: t= 13.0s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680981.166713600] [trajectory_publisher]: t= 13.5s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680981.665609100] [trajectory_publisher]: 切换任务段 -> v=1.5 w=0.0
+[INFO] [1793680981.667094200] [trajectory_publisher]: t= 14.0s 指令 v=1.5 w=0.5 | 实际 v=1.50 w=0.50 | arc_left
+[INFO] [1793680982.165237900] [trajectory_publisher]: t= 14.5s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.05 | arc_left
+[INFO] [1793680982.663641300] [trajectory_publisher]: t= 15.0s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.01 | arc_left
+[INFO] [1793680983.162737700] [trajectory_publisher]: t= 15.5s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680983.665376500] [trajectory_publisher]: t= 16.0s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680984.167163100] [trajectory_publisher]: t= 16.5s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680984.664466700] [trajectory_publisher]: t= 17.0s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680985.160462300] [trajectory_publisher]: t= 17.5s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680985.663327400] [trajectory_publisher]: 切换任务段 -> v=0.0 w=-1.0
+[INFO] [1793680985.664875300] [trajectory_publisher]: t= 18.0s 指令 v=1.5 w=0.0 | 实际 v=1.50 w=0.00 | cruise
+[INFO] [1793680986.167287900] [trajectory_publisher]: t= 18.5s 指令 v=0.0 w=-1.0 | 实际 v=0.16 w=-0.89 | arc_right
+[INFO] [1793680986.666586100] [trajectory_publisher]: t= 19.0s 指令 v=0.0 w=-1.0 | 实际 v=0.02 w=-0.99 | arc_right
+[INFO] [1793680987.167007100] [trajectory_publisher]: t= 19.5s 指令 v=0.0 w=-1.0 | 实际 v=0.00 w=-1.00 | arc_right
+[INFO] [1793680987.666680900] [trajectory_publisher]: t= 20.0s 指令 v=0.0 w=-1.0 | 实际 v=0.00 w=-1.00 | turn_right
+[INFO] [1793680988.164994700] [trajectory_publisher]: t= 20.5s 指令 v=0.0 w=-1.0 | 实际 v=0.00 w=-1.00 | turn_right
+[INFO] [1793680988.663898500] [trajectory_publisher]: 切换任务段 -> v=0.0 w=0.0
+[INFO] [1793680988.665799700] [trajectory_publisher]: t= 21.0s 指令 v=0.0 w=-1.0 | 实际 v=0.00 w=-1.00 | turn_right
+[INFO] [1793680989.163231200] [trajectory_publisher]: t= 21.5s 指令 v=0.0 w=0.0 | 实际 v=0.00 w=-0.11 | turn_right
+[INFO] [1793680989.668416300] [trajectory_publisher]: t= 22.0s 指令 v=0.0 w=0.0 | 实际 v=0.00 w=-0.01 | turn_right
+[INFO] [1793680990.167322500] [trajectory_publisher]: t= 22.5s 指令 v=0.0 w=0.0 | 实际 v=0.00 w=-0.00 | turn_right
+[INFO] [1793680990.666575700] [trajectory_publisher]: 任务剖面结束，发布端停止。
+[INFO] [1793680990.668070600] [trajectory_publisher]: t= 23.0s 指令 v=0.0 w=0.0 | 实际 v=0.00 w=-0.00 | hover
